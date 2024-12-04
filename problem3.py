@@ -17,3 +17,16 @@ example:
 enter a number: 4
 the sum of the series is 1234
 """
+
+i = input("Enter a number smaller than 10:")
+i=float(i)
+totol=0
+term=0
+i=int(i)
+
+for i in range (1, i+1):
+    term=term*10+1
+    totol+=term
+print (f"{i}! is {totol}")
+
+
